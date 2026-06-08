@@ -1,0 +1,24 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="20" y1="20" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB347"/>
+      <stop offset="1" stop-color="#FF4D6D"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="18" y="18" width="184" height="184" rx="46" fill="#101218" stroke="url(#g1)" stroke-width="4"/>
+  <path d="M67 140C67 112.938 88.938 91 116 91H154" stroke="url(#g1)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M62 90C65.8 71.5 82.5 58 102 58H156" stroke="url(#g1)" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="78" cy="157" r="10" fill="#FFD166" filter="url(#glow)"/>
+  <circle cx="153" cy="157" r="10" fill="#FFD166" filter="url(#glow)"/>
+  <path d="M55 81L48 58" stroke="#FFD166" stroke-width="10" stroke-linecap="round"/>
+  <path d="M87 80L80 57" stroke="#FFD166" stroke-width="10" stroke-linecap="round"/>
+  <path d="M119 80L112 57" stroke="#FFD166" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="191" text-anchor="middle" fill="#FFF4E8" font-size="23" font-family="Arial, sans-serif" font-weight="700">MenuX</text>
+</svg>
