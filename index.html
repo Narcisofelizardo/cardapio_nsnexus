@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MenuX Prime | Cardápio Digital Premium</title>
+  <meta name="description" content="Modelo premium de cardápio digital para impressionar clientes e gerar pedidos pelo WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb"></div>
+  <div class="grid-overlay"></div>
+
+  <div id="loader">
+    <div class="loader-box">
+      <div class="loader-ring"></div>
+      <strong>Preparando uma experiência que impressiona...</strong>
+      <span>Carregando cardápio premium</span>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img class="brand-logo" id="brandLogo" src="assets/logo.svg" alt="Logo MenuX" />
+        <div class="brand-copy">
+          <h1 id="brandName">MenuX Prime</h1>
+          <p id="brandTagline">Cardápio digital premium com experiência que vende</p>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#destaques">Destaques</a>
+        <a href="#menu">Cardápio</a>
+        <a href="#depoimentos">Prova social</a>
+        <a href="#fechar">Fechar pedido</a>
+        <button class="icon-btn" id="cartBtn" aria-label="Abrir carrinho">
+          🛒
+          <span id="cartCount">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="dot"></span> Modelo criado para ganhar clientes</div>
+          <h2>Cardápio digital <span class="grad">premium</span> com visual de alto impacto.</h2>
+          <p id="brandDescription">Modelo de cardápio digital feito para impressionar clientes, destacar promoções e gerar pedidos pelo WhatsApp.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#menu">Ver cardápio</a>
+            <button class="btn-secondary" id="heroWhatsBtn">Pedir pelo WhatsApp</button>
+          </div>
+          <div class="hero-stats">
+            <div class="metric">
+              <strong id="ratingStat">4.9 ★</strong>
+              <span>Avaliação média</span>
+            </div>
+            <div class="metric">
+              <strong id="deliveryStat">25-40 min</strong>
+              <span>Tempo de entrega</span>
+            </div>
+            <div class="metric">
+              <strong>100%</strong>
+              <span>Foco em conversão</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-card">
+            <img id="heroImage" src="assets/hero-pizza.png" alt="Destaque do cardápio" />
+          </div>
+          <div class="glass-panel gp1">
+            <strong>🔥 Oferta destaque</strong>
+            <p>Combos e itens com apresentação premium para chamar atenção na primeira dobra.</p>
+            <div class="gp-row"><span>Mais conversão</span><span>+WhatsApp</span></div>
+          </div>
+          <div class="glass-panel gp2">
+            <strong>⚡ Experiência rápida</strong>
+            <p>Busca, filtros, modal bonito e carrinho inteligente integrado ao pedido.</p>
+            <div class="gp-row"><span>Visual moderno</span><span>UX top</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="feature-strip" id="highlightList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="destaques">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h3>Destaques com visual cinematográfico</h3>
+            <p>O objetivo desse modelo é causar impacto visual logo de cara e fazer o cliente ter vontade de clicar, explorar e pedir.</p>
+          </div>
+        </div>
+        <div class="featured-wrap">
+          <div class="carousel reveal">
+            <div class="slides" id="slides"></div>
+          </div>
+          <aside class="promo-panel reveal">
+            <div class="promo-card">
+              <strong>🎯 Ideal para vender sites e cardápios</strong>
+              <p>Use esse modelo como demonstração para pizzarias, hamburguerias, sushi e restaurantes premium.</p>
+            </div>
+            <div class="promo-card">
+              <strong>🚀 Diferencial visual</strong>
+              <p>Glow, depth, hover 3D, gradientes, vidro fosco e fluxo de pedido elegante.</p>
+            </div>
+            <div class="promo-card">
+              <strong>📲 Finalização prática</strong>
+              <p>O carrinho monta a mensagem e manda direto para o WhatsApp do restaurante.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h3>Explore o cardápio</h3>
+            <p>Pesquise, filtre por categoria e veja como os itens ficam apresentados de forma profissional.</p>
+          </div>
+        </div>
+
+        <div class="controls reveal">
+          <div class="search-box">
+            <span>🔎</span>
+            <input id="searchInput" type="search" placeholder="Pesquise pizzas, burgers, sushis, sobremesas..." />
+          </div>
+          <div class="chips" id="categoryChips"></div>
+        </div>
+
+        <div class="menu-grid" id="menuGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h3>Prova social que ajuda a vender o projeto</h3>
+            <p>Um modelo assim transmite mais valor. O cliente sente que não é “só um cardápio”, e sim uma vitrine digital completa.</p>
+          </div>
+        </div>
+        <div class="quote-grid" id="testimonialGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="fechar">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-inner">
+            <div>
+              <h3>Pronto para impressionar o cliente e fechar negócio.</h3>
+              <p>Você pode personalizar nome, cores, WhatsApp, produtos, categorias e fotos para qualquer pizzaria ou restaurante. É um excelente modelo comercial.</p>
+              <div class="hero-actions">
+                <button class="btn-primary" id="ctaWhatsBtn">Testar pedido via WhatsApp</button>
+                <button class="btn-secondary" id="ctaCartBtn">Abrir carrinho</button>
+              </div>
+            </div>
+            <div class="cta-bullets">
+              <span>✨ Layout premium e responsivo</span>
+              <span>⚙️ Dados editáveis em JSON</span>
+              <span>🛒 Carrinho com mensagem automática</span>
+              <span>📈 Visual pensado para conversão</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <span>Modelo MenuX Prime • pronto para personalização</span>
+      <span>Feito para demonstração comercial de cardápio digital</span>
+    </div>
+  </footer>
+
+  <button class="floating-whats" id="floatingWhats" aria-label="WhatsApp">✆</button>
+
+  <div class="backdrop" id="backdrop"></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras">
+    <div class="cart-head">
+      <div>
+        <strong style="font-size:1.2rem">Seu carrinho</strong>
+        <div style="color:var(--muted); font-size:.92rem">Revise e envie pelo WhatsApp</div>
+      </div>
+      <button class="icon-btn" id="closeCart">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="empty-state">
+        <div>
+          <div style="font-size:2rem; margin-bottom:8px">🛒</div>
+          <strong>Nenhum item adicionado</strong>
+          <p>Adicione produtos para testar a experiência completa.</p>
+        </div>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-summary">
+        <div class="sum-line"><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div>
+        <div class="sum-line"><small>Taxa estimada</small><small id="fee">R$ 6,00</small></div>
+        <div class="sum-line"><span>Total</span><strong id="total">R$ 6,00</strong></div>
+      </div>
+      <button class="btn-primary" id="checkoutBtn" style="width:100%">Finalizar pelo WhatsApp</button>
+    </div>
+  </aside>
+
+  <div class="modal" id="itemModal">
+    <div class="modal-box">
+      <div class="modal-media"><img id="modalImage" src="" alt="Produto" /></div>
+      <div class="modal-content">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:start; margin-bottom:8px;">
+          <div>
+            <span class="badge" id="modalBadge" style="position:static; display:inline-flex; margin-bottom:12px;">Destaque</span>
+            <h4 id="modalTitle">Produto</h4>
+          </div>
+          <button class="icon-btn" id="closeModal">✕</button>
+        </div>
+        <p id="modalDescription"></p>
+        <div class="mod-meta">
+          <span id="modalPrep">⏱ 20 min</span>
+          <span id="modalRate">★ 4.9</span>
+          <span id="modalCategory">Categoria</span>
+        </div>
+        <div style="font-size:2rem; font-weight:800; margin:6px 0 18px;" id="modalPrice">R$ 0,00</div>
+        <div class="hero-actions">
+          <button class="btn-primary" id="modalAddBtn">Adicionar ao carrinho</button>
+          <button class="btn-secondary" id="modalWhatsBtn">Enviar no WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/menu.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
