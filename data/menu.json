@@ -1,0 +1,121 @@
+{
+  "branding": {
+    "name": "MenuX Prime",
+    "tagline": "Cardápio digital premium com experiência que vende",
+    "description": "Modelo de cardápio digital feito para impressionar clientes, destacar promoções e gerar pedidos pelo WhatsApp.",
+    "whatsapp": "5594999999999",
+    "deliveryTime": "25-40 min",
+    "rating": 4.9,
+    "heroImage": "assets/hero-pizza.png",
+    "logo": "assets/logo.svg"
+  },
+  "highlights": [
+    {"title": "Efeito wow", "text": "Animações suaves, parallax, cards com glow e visual premium."},
+    {"title": "Feito para vender", "text": "Botões fortes, combos em destaque e gatilhos visuais de compra."},
+    {"title": "Pronto para WhatsApp", "text": "Carrinho com resumo automático para finalizar o pedido."}
+  ],
+  "categories": ["Destaques", "Combos", "Pizzas", "Japonesa", "Sobremesas", "Bebidas"],
+  "items": [
+    {
+      "id": 1,
+      "name": "Pizza Suprema da Casa",
+      "category": "Pizzas",
+      "price": 59.9,
+      "badge": "Mais pedida",
+      "description": "Pepperoni, muçarela especial, champignon, azeitonas pretas e folhas de manjericão.",
+      "image": "assets/hero-pizza.png",
+      "prepTime": "30 min",
+      "rating": 4.9,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Burger Fire Combo",
+      "category": "Combos",
+      "price": 42.9,
+      "badge": "Explosão de sabor",
+      "description": "Hambúrguer artesanal com bacon crocante, cheddar derretido e fritas sequinhas.",
+      "image": "assets/burger-combo.png",
+      "prepTime": "18 min",
+      "rating": 4.8,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Sushi Experience",
+      "category": "Japonesa",
+      "price": 74.9,
+      "badge": "Premium",
+      "description": "Seleção especial de sashimis, uramakis, niguiris e peças exclusivas.",
+      "image": "assets/sushi-combo.png",
+      "prepTime": "25 min",
+      "rating": 5.0,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Sweet Glow",
+      "category": "Sobremesas",
+      "price": 28.9,
+      "badge": "Novo",
+      "description": "Torta de chocolate intensa acompanhada de drink refrescante com frutas.",
+      "image": "assets/dessert-combo.png",
+      "prepTime": "10 min",
+      "rating": 4.7,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Combo Casal Prime",
+      "category": "Destaques",
+      "price": 99.9,
+      "badge": "Oferta do dia",
+      "description": "1 pizza grande, 1 burger premium e 2 bebidas. Ideal para impressionar no cardápio.",
+      "image": "assets/hero-pizza.png",
+      "prepTime": "35 min",
+      "rating": 4.9,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Pizza Calabresa Gold",
+      "category": "Pizzas",
+      "price": 54.9,
+      "badge": "Clássica",
+      "description": "Calabresa fatiada, cebola roxa, orégano fresco e borda crocante.",
+      "image": "assets/hero-pizza.png",
+      "prepTime": "28 min",
+      "rating": 4.8,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Temaki Fusion",
+      "category": "Japonesa",
+      "price": 31.9,
+      "badge": "Favorito",
+      "description": "Salmão, cream cheese e cebolinha em cone crocante de alga nori.",
+      "image": "assets/sushi-combo.png",
+      "prepTime": "12 min",
+      "rating": 4.8,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Milkshake Velvet",
+      "category": "Bebidas",
+      "price": 19.9,
+      "badge": "Instagramável",
+      "description": "Milkshake cremoso com calda premium e visual irresistível.",
+      "image": "assets/dessert-combo.png",
+      "prepTime": "8 min",
+      "rating": 4.6,
+      "featured": false
+    }
+  ],
+  "testimonials": [
+    {"name": "Pizzaria Aurora", "text": "Um visual desses ajuda muito a converter mais pedidos pelo WhatsApp."},
+    {"name": "Bistrô 085", "text": "Cliente bate o olho e já percebe o nível profissional do negócio."},
+    {"name": "Sushi Nobre", "text": "O cardápio virou uma vitrine digital e ficou muito mais convincente."}
+  ]
+}
